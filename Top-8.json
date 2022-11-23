@@ -1,0 +1,162 @@
+{
+    "winner1": {
+        "nombre": "Ishigami",
+        "sponsor": "",
+        "personaje": "Marth",
+        "color": "Default",
+        "score": 3,
+        "winOrLose": false
+    },
+    "winner2": {
+        "nombre": "José",
+        "sponsor": "",
+        "personaje": "Ice Climbers",
+        "color": "Default",
+        "score": 0,
+        "winOrLose": false
+    },
+    "winner3": {
+        "nombre": "Chape",
+        "sponsor": "",
+        "personaje": "Fox",
+        "color": "Default",
+        "score": 0,
+        "winOrLose": false
+    },
+    "winner4": {
+        "nombre": "Duff",
+        "sponsor": "",
+        "personaje": "Falco",
+        "color": "Default",
+        "score": 3,
+        "winOrLose": false
+    },
+    "loser1": {
+        "nombre": "Morrito",
+        "sponsor": "TZ",
+        "personaje": "Fox",
+        "color": "Default",
+        "score": 3,
+        "winOrLose": false
+    },
+    "loser2": {
+        "nombre": "SuperCuak",
+        "sponsor": "",
+        "personaje": "Peach",
+        "color": "Default",
+        "score": 0,
+        "winOrLose": false
+    },
+    "loser3": {
+        "nombre": "Leof",
+        "sponsor": "",
+        "personaje": "Fox",
+        "color": "Green",
+        "score": 0,
+        "winOrLose": false
+    },
+    "loser4": {
+        "nombre": "Stark",
+        "sponsor": "Flow",
+        "personaje": "Fox",
+        "color": "Default",
+        "score": 3,
+        "winOrLose": false
+    },
+    "quarters1": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 3,
+        "winOrLose": false
+    },
+    "quarters2": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 0,
+        "winOrLose": false
+    },
+    "quarters3": {
+        "nombre": "Chape",
+        "sponsor": "Flow",
+        "personaje": "Fox",
+        "color": "Default",
+        "score": 0,
+        "winOrLose": false
+    },
+    "quarters4": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 3,
+        "winOrLose": false
+    },
+    "wFinals1": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 3,
+        "winOrLose": false
+    },
+    "wFinals2": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 1,
+        "winOrLose": false
+    },
+    "lSemis1": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 2,
+        "winOrLose": false
+    },
+    "lSemis2": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 3,
+        "winOrLose": false
+    },
+    "lFinals1": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 2,
+        "winOrLose": false
+    },
+    "lFinals2": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 3,
+        "winOrLose": false
+    },
+    "grands1": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 2,
+        "winOrLose": false
+    },
+    "grands2": {
+        "nombre": "",
+        "sponsor": "",
+        "personaje": "",
+        "color": "",
+        "score": 3,
+        "winOrLose": false
+    }
+}

@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('Resources/Fonts/Poppins-Medium.ttf');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background: transparent;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-family: "Poppins";
+    white-space: nowrap;
+}
+
+
+.absol {
+    position: absolute;
+}
+
+.background {
+    z-index: -10;
+}
+
+.bracket-container {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;    
+}
+
+.matches {
+    display: flex;
+    height: 400px;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bracket-items {
+    padding: 40px 0;
+}
+
+.player-item {
+    background-color: #d2d2d2;
+    border: 2px solid #000000;
+    width: 450px;
+    height: 70px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player-item-full {
+    background-color: #d2d2d2;
+    opacity: 0.5;
+    border: 2px solid #000000;
+    width: 405px;
+    height: 70px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player-info {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.player-item:first-child {
+    margin-bottom: 10px;
+}
+
+.team {
+    width: 55px;
+    /* padding: 0; */
+}
+
+.name {
+    font-family: "Poppins";
+    flex-grow: 1;
+    font-size: 22px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-left: 25px;
+}
+
+.character {
+    width: 28px;
+}
+
+.round {
+    /* -webkit-text-stroke: 3px #5d4444; */
+    /* border: 1px solid #5d4444; */
+    color: #ffffff;
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.score {
+    font-size: 22px;
+    padding: 0 25px;
+    /* background-color: orange; */
+    /* background: linear-gradient(90deg, rgba(4,12,16,1) 0%, #123B68 100%); */
+    border-radius: 0 22.5px 22.5px 0;
+    height: 100%;
+    line-height: 3.18;
+}
+
+.score-win {
+    background: linear-gradient(90deg, #7fbbde 0%, #348dbf 100%);
+}
+
+.score-lose {
+    background: linear-gradient(90deg, #d76969 0%, #bf3838 100%);
+}
+
+.info {
+    z-index: 10;
+    bottom: 33.703px;
+    left: 0;
+    right: 0;
+    height: 120px;
+    /* border: 2px solid #ffffff; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-color: #0a1f35d7;
+    font-family: "Poppins";
+    font-size: 64px;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+.upcoming {
+    background-color: rgb(85, 32, 1);
+    width: 450px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcoming img {
+    height: 120px;
+}
+
+.upcoming span {
+    font-size: 20px;
+}
+
+.p1, .p2, .vs {
+    flex-grow: 1;
+    border: 1px solid black;
+}
+
+.p1 img {
+    transform: scaleX(-1);
+}
+
+.vs {
+    font-size: 28px;
+    text-align: center;
+}
+
+.p1, .p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .p1 {
+    align-items: flex-start;
+}
+
+.p2 {
+    align-items: flex-end;
+} */
+
+.bracket-container-top {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    width: 1500px
+}
+
+.bracket-container-bottom {
+    /* We first create a flex layout context */
+    display: flex;
+    
+    /* Then we define how is distributed the remaining space */
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;    
+}

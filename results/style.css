@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@media (min-width: 1921px), (min-height: 1081px), (max-width: 1919px), (max-height: 1079px) {
+  .page * {
+    display: none;
+  }
+  body::before {
+    content: "The screen size must be 1920x1080.";
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+body::after {
+  content: "";
+}
+
+.page {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding: 20rem 2rem 4rem 2rem;
+  background-color: #fcf4dd;
+  background-image: url("../Resources/Jugaos Maylay 2/Fondo.png");
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "top1 top4" "top1 top8";
+  row-gap: 1rem;
+}
+
+.top-1 {
+  grid-area: top1;
+  font-size: 3rem;
+}
+
+.top-4 {
+  grid-area: top4;
+  margin-left: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: calc(40% - 1rem) calc(35% - 1rem) 25%;
+  font-size: 2.4rem;
+}
+
+.top-8 {
+  grid-area: top8;
+  display: flex;
+  justify-content: stretch;
+  gap: 1rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+.card {
+  height: 100%;
+  flex: 1;
+  background-color: rgba(105, 214, 221, 0.5);
+  border-radius: 2rem;
+  border: 5px solid #43afb8;
+}
+
+.player-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.character {
+  height: 100%;
+}
+
+.drop-shadow {
+  filter: drop-shadow(25px 10px 0px #43afb8);
+}
+.drop-shadow-inverted {
+  filter: drop-shadow(-25px 10px 0px #43afb8);
+}
+
+.placing {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  background-color: #43afb8;
+  aspect-ratio: 1;
+  width: 3rem;
+  padding: 7px 0;
+  text-align: center;
+  border-radius: 1rem;
+  color: #fcf4dd;
+  text-shadow: 1px 1px 8px black;
+}
+
+.tag-name {
+  margin: 1rem auto;
+  max-width: max-content;
+  color: #fcf4dd;
+  text-shadow: 1px 1px 8px black;
+}
+.tag-name-container {
+  background-color: rgb(105, 214, 221);
+  border-radius: 0 0 1.6rem 1.6rem;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=style.css.map */

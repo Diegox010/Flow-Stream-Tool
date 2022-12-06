@@ -31,7 +31,7 @@ body::after {
   justify-content: center;
   padding: 20rem 2rem 4rem 2rem;
   background-color: #fcf4dd;
-  background-image: url("../Resources/Jugaos Maylay 2/Fondo.png");
+  background-image: url("../Resources/Jugaos Maylay 2/Fondo\ Jugaos\ 3.png");
 }
 
 .layout {
@@ -87,10 +87,10 @@ body::after {
 }
 
 .drop-shadow {
-  filter: drop-shadow(25px 10px 0px #43afb8);
+  filter: drop-shadow(15px 8px 0px #43afb8);
 }
 .drop-shadow-inverted {
-  filter: drop-shadow(-25px 10px 0px #43afb8);
+  filter: drop-shadow(-15px 8px 0px #43afb8);
 }
 
 .placing {

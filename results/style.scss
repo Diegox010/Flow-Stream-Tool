@@ -14,7 +14,6 @@ $clr-border: #43afb8;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
 }
 
 body {
@@ -153,4 +152,18 @@ body::after {
     border-radius: 0 0 1.6rem 1.6rem;
     z-index: 2;
   }
+}
+
+.select {
+  position: absolute;
+  top: 16px;
+  background-color: white;
+  padding: 16px;
+  display: flex;
+}
+
+#result_json {
+  font-family: monospace;
+  max-width: 500px;
+  margin-left: 16px;
 }

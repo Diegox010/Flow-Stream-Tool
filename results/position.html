@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flow Results</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <body class="page">
+    <div class="select">
+      <div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>1</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>2</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>3</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>4</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>5</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>6</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>7</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <div class="select_player-character">
+          <span>8</span>
+          <select
+            class="select_character-name"
+            onchange="handle_characterNameSelect(event)"
+          ></select>
+          <select></select>
+          <span>Left</span>
+          <input type="checkbox" />
+          <input type="text" placeholder="Player name" />
+        </div>
+        <!-- --- -->
+        <button onclick="handle_createJSON()">Create JSON</button>
+      </div>
+      <div id="result_json" style=""></div>
+    </div>
+    <div class="layout">
+      <div class="top-1">
+        <div class="card" id="top-1">
+          <div class="player-layout">
+            <!-- <div class="placing">1</div> -->
+            <div
+              class="character drop-shadow"
+              style="
+                background-image: url('./Characters/Ganondorf/Default Right.png');
+                background-size: auto 130%;
+                background-position-x: center;
+                background-position-x: -99%;
+                background-position-y: 30%;
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">Dream</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-4">
+        <div class="card" id="top-2">
+          <div class="player-layout">
+            <!-- <div class="placing">2</div> -->
+            <div
+              class="character drop-shadow-inverted"
+              style="
+                background-image: url('./Characters/Fox/Green\ Left.png');
+                background-size: auto 200%;
+                background-position-x: center;
+                background-position-y: 18%;
+                transform: scaleX(-1);
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">Valdo</div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="top-3">
+          <div class="player-layout">
+            <!-- <div class="placing">3</div> -->
+            <div
+              class="character drop-shadow"
+              style="
+                background-image: url('./Characters/Marth/Black\ Right.png');
+                background-size: auto 170%;
+                background-position-x: 50%;
+                background-position-y: 40%;
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">BigThor</div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="top-4">
+          <div class="player-layout">
+            <!-- <div class="placing">4</div> -->
+            <div
+              class="character drop-shadow-inverted"
+              style="
+                background-image: url('./Characters/Fox/Default\ Left.png');
+                background-size: auto 180%;
+                background-position-x: center;
+                background-position-y: 18%;
+                transform: scaleX(-1);
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">Flow | Esponja</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top-8">
+        <div class="card" id="top-5">
+          <div class="player-layout">
+            <!-- <div class="placing">5</div> -->
+            <div
+              class="character drop-shadow-inverted"
+              style="
+                background-image: url('./Characters/Peach/Default\ Left.png');
+                background-size: auto 170%;
+                background-position-x: center;
+                background-position-y: 8%;
+                transform: scaleX(-1);
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">Beto</div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="top-6">
+          <div class="player-layout">
+            <!-- <div class="placing">5</div> -->
+            <div
+              class="character drop-shadow"
+              style="
+                background-image: url('./Characters/Falco/Green\ Right.png');
+                background-size: auto 150%;
+                background-position-x: center;
+                background-position-y: 10%;
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">FerOne</div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="top-7">
+          <div class="player-layout">
+            <!-- <div class="placing">7</div> -->
+            <div
+              class="character drop-shadow-inverted"
+              style="
+                background-image: url('./Characters/Fox/Default\ Left.png');
+                background-size: auto 170%;
+                background-position-x: center;
+                background-position-y: 20%;
+                transform: scaleX(-1);
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">Flow | Momo</div>
+            </div>
+          </div>
+        </div>
+        <div class="card" id="top-8">
+          <div class="player-layout">
+            <!-- <div class="placing">7</div> -->
+            <div
+              class="character drop-shadow-inverted"
+              style="
+                background-image: url('./Characters/Samus/Pink\ Left.png');
+                background-size: auto 180%;
+                background-position-x: 54%;
+                background-position-y: 35%;
+                transform: scaleX(-1);
+              "
+            ></div>
+            <div class="tag-name-container">
+              <div class="tag-name">Chava</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const costumes_colors = {
+        Bowser: ['Blue', 'Red', 'Black'],
+        'Captian Falcon': ['Black', 'Blue', 'Green', 'Red', 'White'],
+        'Donkey Kong': ['Blue', 'Green', 'Purple', 'Red'],
+        'Dr Mario': ['Black', 'Blue', 'Green', 'Red'],
+        Falco: ['Blue', 'Green', 'Red'],
+        Fox: ['Blue', 'Green', 'Red'],
+        Ganondorf: ['Blue', 'Green', 'Purple', 'Red'],
+        'Ice Climbers': ['Green', 'Orange', 'Red'],
+        Jigglypuff: ['Blue', 'Green', 'Red', 'Yellow'],
+        Kirby: ['Blue', 'Green', 'Red', 'White', 'Yellow'],
+        Link: ['Black', 'Blue', 'Red', 'White'],
+        Luigi: ['Blue', 'Pink', 'White'],
+        Mario: ['Blue', 'Brown', 'Green', 'Yellow'],
+        Marth: ['Black', 'Green', 'Red', 'White'],
+        Mewtwo: ['Blue', 'Green', 'Yellow'],
+        'Mr Game & Watch': ['Blue', 'Green', 'Red'],
+        Ness: ['Blue', 'Green', 'Yellow'],
+        Peach: ['Blue', 'Green', 'White', 'Yellow'],
+        Pichu: ['Blue', 'Green', 'Red'],
+        Pikachu: ['Blue', 'Green', 'Red'],
+        Roy: ['Blue', 'Green', 'Red', 'Yellow'],
+        Samus: ['Brown', 'Green', 'Pink', 'Purple'],
+        Sheik: ['Blue', 'Green', 'Purple', 'Red'],
+        Yoshi: ['Blue', 'Cyan', 'Pink', 'Red', 'Yellow'],
+        'Young Link': ['Black', 'Blue', 'Red', 'White'],
+        Zelda: ['Blue', 'Green', 'Purple', 'Red'],
+      };
+
+      // Agrega una lista de <option> a un elemento <select>
+      function appendOptionsToSelect(elem, arr) {
+        elem.innerHTML = '';
+        arr.forEach((item) => {
+          let optionElement = document.createElement('option');
+          optionElement.append(item);
+          elem.appendChild(optionElement);
+        });
+      }
+
+      // Pasa cuando selecionan un personaje en el menú. Llena las opciones de colores del personaje en el menú correspondiente.
+      function handle_characterNameSelect(ev) {
+        ev.target.nextElementSibling.selectedIndex = 0;
+        appendOptionsToSelect(ev.target.nextElementSibling, [
+          'Default',
+          ...costumes_colors[ev.target.value],
+        ]);
+      }
+
+      // Pasa cuando hacen click en el botón "Create JSON"
+      function handle_createJSON() {
+        let results = [];
+        [...document.getElementsByClassName('select_player-character')].forEach(
+          (container) => {
+            let children = [...container.children];
+            // Construye la URL de la imagen del personaje.
+            let resultData = {
+              url: `./Characters/${children[1].value}/${children[2].value} ${
+                children[4].checked ? 'Left' : 'Right'
+              }.png`,
+              player: children[5].value,
+            };
+            results.push(resultData);
+          }
+        );
+        document.getElementById('result_json').innerHTML =
+          JSON.stringify(results);
+        // Imprime en la consola el JSON.
+        console.log(JSON.stringify(results));
+      }
+
+      // Tan pronto se carga el contenido de la página, llena los menús con opciones de personajes.
+      document.addEventListener('DOMContentLoaded', function () {
+        [...document.getElementsByClassName('select_character-name')].map(
+          (element) => {
+            appendOptionsToSelect(element, Object.keys(costumes_colors));
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

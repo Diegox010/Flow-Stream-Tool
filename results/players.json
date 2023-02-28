@@ -1,0 +1,31 @@
+[
+  {
+    "url": "./Characters/Ganondorf/Default Right.png",
+    "player": "Dream"
+  },
+  { "url": "./Characters/Fox/Green Left.png", "player": "Valdo" },
+  {
+    "url": "./Characters/Marth/Black Right.png",
+    "player": "BigThor"
+  },
+  {
+    "url": "./Characters/Fox/Default Left.png",
+    "player": "Flow | Esponja"
+  },
+  {
+    "url": "./Characters/Peach/Default Left.png",
+    "player": "Beto"
+  },
+  {
+    "url": "./Characters/Falco/Green Right.png",
+    "player": "FerOne"
+  },
+  {
+    "url": "./Characters/Fox/Default Left.png",
+    "player": "Flow | Momo"
+  },
+  {
+    "url": "./Characters/Samus/Pink Right.png",
+    "player": "Chava"
+  }
+]

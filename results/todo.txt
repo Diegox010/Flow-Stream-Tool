@@ -1,0 +1,6 @@
+- [x] Copiar todos los chars y poner a Sheik en su propia carpeta
+- [x] Copia index.html a position.html donde se configurará el json.
+- [x] Modifica position.html para tener un menú para seleccionar los personajes, colores y jugadores del top 8.
+- [x] Agrega un botón de "Crear JSON" para que tome los valores de el menú y lo convierta en el json del top 8.
+- [x] Crear un espacio donde se visualice el JSON para poderlo copiar fácilmente.
+- [ ] Agrega a index.html un script que tome el json generado y despliegue el top 8.

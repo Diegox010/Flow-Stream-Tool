@@ -1,0 +1,166 @@
+{
+    "1ro": {
+        "Captain_Falcon": {
+            "bg_size": "auto 110%",
+            "bs_pos_x": "54%",
+            "bg_pos_y": "35%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Falco": {
+            "bg_size": "auto 105%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "42%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Fox": {
+            "bg_size": "auto 130%",
+            "bs_pos_x": "51%",
+            "bg_pos_y": "45%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Ganondorf": {
+            "bg_size": "auto 140%",
+            "bs_pos_x": "52%",
+            "bg_pos_y": "37%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Jigglypuff": {
+            "bg_size": "auto 90%",
+            "bs_pos_x": "51%",
+            "bg_pos_y": "70%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Marth": {
+            "bg_size": "auto 120%",
+            "bs_pos_x": "52%",
+            "bg_pos_y": "32%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Peach": {
+            "bg_size": "auto 110%",
+            "bs_pos_x": "49%",
+            "bg_pos_y": "35%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Sheik": {
+            "bg_size": "auto 150%",
+            "bs_pos_x": "52%",
+            "bg_pos_y": "42%",
+            "inverted": true,
+            "shadow": false
+        }
+    },
+    "2do": {
+        "Fox": {
+            "bg_size": "auto 190%",
+            "bs_pos_x": "50%",
+            "bg_pos_y": "20%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Ganondorf": {
+            "bg_size": "auto 280%",
+            "bs_pos_x": "52%",
+            "bg_pos_y": "18%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Marth": {
+            "bg_size": "auto 165%",
+            "bs_pos_x": "57%",
+            "bg_pos_y": "40%",
+            "inverted": false,
+            "shadow": false
+        }
+    },
+    "3ro": {
+        "Fox": {
+            "bg_size": "auto 190%",
+            "bs_pos_x": "50%",
+            "bg_pos_y": "20%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Marth": {
+            "bg_size": "auto 165%",
+            "bs_pos_x": "57%",
+            "bg_pos_y": "40%",
+            "inverted": false,
+            "shadow": false
+        }
+    },
+    "4to": {
+        "Marth": {
+            "bg_size": "auto 180%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "15%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Peach": {
+            "bg_size": "auto 180%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "6%",
+            "inverted": false,
+            "shadow": false
+        }
+    },
+    "5to_7mo": {
+        "Captain_Falcon": {
+            "bg_size": "auto 170%",
+            "bs_pos_x": "53%",
+            "bg_pos_y": "15%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Fox": {
+            "bg_size": "auto 150%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "25%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Falco": {
+            "bg_size": "auto 120%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "13%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Marth": {
+            "bg_size": "auto 165%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "17%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Peach": {
+            "bg_size": "auto 150%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "10%",
+            "inverted": false,
+            "shadow": false
+        },
+        "Sheik": {
+            "bg_size": "auto 170%",
+            "bs_pos_x": "center",
+            "bg_pos_y": "37%",
+            "inverted": true,
+            "shadow": false
+        },
+        "Link": {
+            "bg_size": "auto 140%",
+            "bs_pos_x": "54%",
+            "bg_pos_y": "15%",
+            "inverted": true,
+            "shadow": false
+        }
+    }
+}
